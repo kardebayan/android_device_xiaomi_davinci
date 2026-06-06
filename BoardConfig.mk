@@ -59,3 +59,6 @@ VENDOR_SECURITY_PATCH := 2021-10-01
 
 # Inherit from proprietary files
 include vendor/xiaomi/davinci/BoardConfigVendor.mk
+
+# MiuiCamera
+-include vendor/miuicamera-davinci/BoardConfig.mk

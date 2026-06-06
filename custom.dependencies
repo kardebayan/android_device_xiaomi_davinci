@@ -5,6 +5,11 @@
   },
   {
     "remote": "gitlab",
+    "repository": "NoPrincessHere/proprietary_vendor_miuicamera-davinci",
+    "target_path": "vendor/miuicamera-davinci"
+  },
+  {
+    "remote": "gitlab",
     "repository": "NoPrincessHere/proprietary_vendor_xiaomi_davinci",
     "target_path": "vendor/xiaomi/davinci"
   }

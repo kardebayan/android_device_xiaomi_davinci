@@ -113,3 +113,6 @@ PRODUCT_PACKAGES += \
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/davinci/davinci-vendor.mk)
+
+# MiuiCamera
+$(call inherit-product-if-exists, vendor/miuicamera-davinci/device.mk)
