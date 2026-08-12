@@ -16,6 +16,7 @@ $(call inherit-product, device/xiaomi/davinci/device.mk)
 $(call inherit-product, vendor/custom/config/common_full_phone.mk)
 
 TARGET_SCREEN_WIDTH := 1080
+TARGET_SUPPORTS_QUICK_TAP := false
 
 PRODUCT_NAME := custom_davinci
 PRODUCT_DEVICE := davinci
